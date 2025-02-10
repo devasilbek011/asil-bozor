@@ -1,0 +1,255 @@
+
+
+  
+  
+  .boshreklama {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  
+  }
+
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+  
+  .App {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pastgi_qismkattasi{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 30px;
+  }
+
+  .mapsss{
+    width: 500px;
+    height: 400px;
+  }
+  
+s{
+  color: rgb(160, 160, 160);
+  font-size: 14px;
+}
+
+.font{
+  font-size: 20px;
+}
+
+.flex{
+  display: flex;
+  gap: 5px;
+}
+
+.tf{
+  margin-top: 5px;
+}
+
+.past_card img{
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+
+    width: 1600px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  .image {
+    width: 1600px;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out; 
+  }
+  
+  .image.fade {
+    opacity: 0; 
+  }
+  
+
+
+.btn img{
+  width: 20px;
+
+}
+
+.btn{
+  width: 280px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+}
+
+i{
+  font-size: 20px;
+  margin-top: 1px;
+}
+
+.name{
+ 
+  margin-top: 30px;
+}
+
+.hht{
+ display: flex;
+gap: 5px;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+.brr1{
+  padding: 5px 5px;
+background-color: transparent;
+border-radius: 5px;
+transition: 0.5s;
+}
+
+.brr1:hover{
+  background-color: rgb(220, 215, 215);
+padding: 8px 8px;
+position: relative;
+}
+
+.brr2{
+  padding: 5px 5px;
+background-color: transparent;
+border-radius: 5px;
+transition: 0.5s;
+}
+
+.clsg{
+  background-color: rgb(255, 183, 0);
+  font-size: 15px;
+padding: 1px 5px;
+width: 200px;
+color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+
+.brr2:hover{
+  background-color: rgb(220, 215, 215);
+  padding: 8px 8px;
+}
+
+.brr3{
+  padding: 5px 5px;
+background-color: transparent;
+border-radius: 5px;
+transition: 0.5s;
+}
+
+.brr3:hover{
+  background-color: rgb(220, 215, 215);
+  padding: 8px 8px;
+}
+
+.i{
+  background-color: yellow;
+  font-size: 15px;
+  padding: 1px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.urta_kattasis{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+.urta_kattasi{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+.fix_btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+padding: 10px 10px;
+  border-radius: 50px;
+border: none;
+background-color: green;
+}
+
+.ico{
+  font-size: 20px;
+color: white;
+}
+
+.mapl{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 100px;
+}
+
+
+
+
+/* I have ___ money left, so I can buy some snacks.
+(Menda ozgina pul bor, shuning uchun gazak sotib olsam bo‘ladi.) ✅ (To‘g‘ri javob: a little)
+
+She has ___ friends in this city, so she often feels lonely.
+(Uning bu shaharda juda oz do‘sti bor, shuning uchun u ko‘pincha yolg‘iz his qiladi.) ✅ (To‘g‘ri javob: few)
+
+There is ___ milk in the fridge, we need to buy more.
+(Muzlatkichda juda oz sut bor, biz yana sotib olishimiz kerak.) ✅ (To‘g‘ri javob: little)
+
+We still have ___ minutes before the movie starts, let's grab a coffee.
+(Film boshlanguncha ozgina vaqt bor, kel kofe ichamiz.) ✅ (To‘g‘ri javob: a few)
+
+He has ___ patience, so he gets angry quickly.
+(Uning sabri juda kam, shuning uchun tez jahli chiqadi.) ✅ (To‘g‘ri javob: little)
+
+I have ___ questions about this topic.
+(Menda bu mavzu bo‘yicha ozgina savollar bor.) ✅ (To‘g‘ri javob: a few)
+
+There are ___ apples on the table, you can take one.
+(Stolda ozgina olma bor, bittasini olishing mumkin.) ✅ (To‘g‘ri javob: a few)
+
+We had ___ time to finish the project, so it was very stressful.
+(Loyihani tugatish uchun juda oz vaqtimiz bor edi, shuning uchun juda stressli bo‘ldi.) ✅ (To‘g‘ri javob: little)
+
+I drink ___ coffee in the morning to wake up.0
+(Ertalab uyg‘onish uchun ozgina qahva ichaman.) ✅ (To‘g‘ri javob: a little)
+
+He has ___ experience in this field, so he may struggle with the task.
+(Uning bu sohada tajribasi juda oz, shuning uchun u vazifa bilan qiynalishi mumkin.) ✅ (To‘g‘ri javob: little)
+
+We made ___ changes to the design, but nothing major.
+(Biz dizaynga ozgina o‘zgartirishlar kiritdik, lekin katta emas.) ✅ (To‘g‘ri javob: a few)
+
+They have ___ knowledge about this subject, so they need more training.
+(Ularning bu mavzu bo‘yicha bilimlari juda oz, shuning uchun ularga ko‘proq o‘qitish kerak.) ✅ (To‘g‘ri javob: little)
+
+There were ___ people at the meeting, so it was quite empty.
+(Yig‘ilishda juda oz odam bor edi, shuning uchun u ancha bo‘sh edi.) ✅ (To‘g‘ri javob: few)
+
+Can you add ___ sugar to my tea?
+(Mening choyimga ozgina shakar qo‘shib bera olasizmi?) ✅ (To‘g‘ri javob: a little)
+
+I have ___ ideas for the project, let’s discuss them.
+(Menda loyihaga oid ozgina g‘oyalar bor, ularni muhokama qilaylik.) ✅ (To‘g‘ri javob: a few)
+
+ */
