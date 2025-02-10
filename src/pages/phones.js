@@ -136,7 +136,7 @@ const Phones = () => {
         <div className="past_card">
           <img src="./assets/Telefonlar/phone8.jpg" alt="" />
           <br />
-          <h4>Redmi 9A</h4>
+          <h4>Redmi  9A</h4>
           <i className="i">{t("title11")}</i>
           <br />
           <h4 className='clsg'>{t("title13")}</h4>
