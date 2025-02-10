@@ -140,7 +140,10 @@ const Phones = () => {
           <i className="i">{t("title11")}</i>
           <br />
           <h4 className='clsg'>{t("title13")}</h4>
-          <br />
+          <div className='hht'>
+          <button className='brr3' onClick={() => setCost('2.300.000')}>128/4</button>
+          <button className='brr2' onClick={() => setCost('2.100.000')}>64/3</button>
+          </div>
           <s>2.100.000</s> <br />
           <div className="flex">
             <h4 className="font">999.000 </h4>
