@@ -1,21 +1,19 @@
-
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-
-.kheadersl{
-    display: flex;
-    justify-content: center;
-    gap: 200px;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(191, 191, 191);
+.kheadersl {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(191, 191, 191);
   position: fixed;
   top: 0;
+  z-index: 9999;
 }
 
 .language-dropdown {
@@ -68,122 +66,111 @@
   background-color: rgb(230, 230, 230);
 }
 
-
-
-.icons{
-
-color: #f63636;
-display: flex;
-margin-top: 14px;
-
+.icons {
+  color: #f63636;
+  display: flex;
+  margin-top: 14px;
 }
 
-.icons .icon{
+.icons .icon {
   height: 30px;
   width: 40px;
   color: #5a94ff;
 }
 
-.icons .iconss{
+.icons .iconss {
   height: 30px;
   width: 40px;
-  color: #f63636; 
+  color: #f63636;
 }
 
-.headersl{
-    display: flex;
-    gap: 10px;
+.headersl {
+  display: flex;
+  gap: 10px;
   text-decoration: none;
 }
 
-.headersl h1{
+.headersl h1 {
   color: rgb(35, 93, 11);
-    font-size: 40px;
-  
-    margin-top: 10px;
+  font-size: 40px;
+
+  margin-top: 10px;
 }
 
-
-.headersl img{
-    width: 70px;
-   margin-top: 10px;
+.headersl img {
+  width: 70px;
+  margin-top: 10px;
 }
 
-.two{
-    display: flex; 
-    gap: 50px;
-  }
+.two {
+  display: flex;
+  gap: 50px;
+}
 
-  .language-buttons{
-    display: flex;
-    gap: 30px;
-    }
-    
-    .language-buttons button{
-     height: 30px;
-     margin-top: 15px;
-    border: none;
-    background-color: rgb(191, 191, 191);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    transition: 0.5s;
-    }
-    
-    .language-buttons button:hover{
-     
-      color: blue;
-      border-color: #f4f2f2;
-    }
+.language-buttons {
+  display: flex;
+  gap: 30px;
+}
 
+.language-buttons button {
+  height: 30px;
+  margin-top: 15px;
+  border: none;
+  background-color: rgb(191, 191, 191);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  transition: 0.5s;
+}
 
-    .nummber{
-        margin-top: 15px;
-       }
+.language-buttons button:hover {
+  color: blue;
+  border-color: #f4f2f2;
+}
 
-       .maps a{
-        font-size: 20px;
-        color: black;
-         
-        }
-        .maps{
-          margin-top: 20px;
-        }
+.nummber {
+  margin-top: 15px;
+}
 
-       .bst{
-        display: flex;
-       }
+.maps a {
+  font-size: 20px;
+  color: black;
+}
+.maps {
+  margin-top: 20px;
+}
 
-       .imsg{
-        width: 30px;
-        height: 20px;
-        margin-top: 10px;
-        margin-left: 10px;
-       }
+.bst {
+  display: flex;
+}
 
-       .brs{
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-       }
+.imsg {
+  width: 30px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
 
-       .ions{
-        margin-top: 23px;
-        font-size: 25px;
-        color: rgb(255, 38, 0);
-       }
-        
-       .ions1{
-        margin-top: 23px;
-        font-size: 25px;
-        color: #5a94ff;
+.brs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
-       }
+.ions {
+  margin-top: 23px;
+  font-size: 25px;
+  color: rgb(255, 38, 0);
+}
 
-       .ions2{
-        margin-top: 23px;
-        font-size: 25px;
-        color: black;
+.ions1 {
+  margin-top: 23px;
+  font-size: 25px;
+  color: #5a94ff;
+}
 
-       }
-        
-      
+.ions2 {
+  margin-top: 23px;
+  font-size: 25px;
+  color: black;
+}
+
