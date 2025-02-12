@@ -370,7 +370,7 @@ const Phones = () => {
         <div className="past_card">
           <img src="./assets/Telefonlar/phone21.jpg" alt="" />
           <br />
-          <h4>KETEL OCHILIB YOPILGICH TELEFON </h4>
+          <h4>KETEL OCHILIB  YOPILGICH TELEFON </h4>
           <i className="i">{t("title11")}</i>
           <br />
           <h4 className="clsg">{t("title13")}</h4>
