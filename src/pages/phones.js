@@ -3,6 +3,7 @@ import { useTranslation, initReactI18next } from "react-i18next";
 import { FaArrowUp } from "react-icons/fa";
 const Phones = () => {
   const [cost, setCost] = useState("2.300.000");
+  const [cost1, setCost1] = useState("2.400.000");
   const { t, i18n } = useTranslation();
   return (
     <div>
@@ -241,7 +242,7 @@ const Phones = () => {
           <h4 className="clsg">{t("title13")}</h4>
           <div className="hht">
             <button className="brr3" >
-64/4
+            64/4
             </button>
           </div>
           <s>2.520.000</s> <br />
@@ -279,7 +280,7 @@ const Phones = () => {
           <h4 className="clsg">{t("title13")}</h4>
           <div className="hht">
             <button className="brr3" >
-128/8
+            128/8
             </button>
           </div>
           <s>3.400.000</s> <br />
@@ -385,7 +386,7 @@ const Phones = () => {
 
       <div className="pastgi_qismkattasi">
         <div className="past_card">
-          <img src="./assets/Telefonlar/phone22.jpg" alt="" />
+          <img src="./assets/.jpg" alt="" />
           <br />
           <h4>Samsung A14</h4>
           <i className="i">{t("title11")}</i>
@@ -393,7 +394,7 @@ const Phones = () => {
           <h4 className="clsg">{t("title13")}</h4>
           <div className="hht">
             <button className="brr3" >
-64/4
+            64/4
             </button>
           </div>
           <s>3.685.000</s> <br />
@@ -410,10 +411,17 @@ const Phones = () => {
           <i className="i">{t("title11")}</i>
           <br />
           <h4 className="clsg">{t("title13")}</h4>
-          <br />
+          <div className="hht">
+            <button className="brr3" onClick={() => setCost1("2.400.000")}>
+              128/6
+            </button>
+            <button className="brr2" onClick={() => setCost1("2.600.000")}>
+              256/6
+            </button>
+          </div>
           <s>4.200.000</s> <br />
           <div className="flex">
-            <h4 className="font">1.999.000</h4>
+            <h4 className="font">{cost1}</h4>
             <h4 className="tf">{t("title10")}</h4>
           </div>
         </div>
@@ -425,10 +433,14 @@ const Phones = () => {
           <i className="i">{t("title11")}</i>
           <br />
           <h4 className="clsg">{t("title13")}</h4>
-          <br />
+          <div className="hht">
+            <button className="brr3">
+              128/4
+            </button>
+          </div>
           <s>3.210.000</s> <br />
           <div className="flex">
-            <h4 className="font">1.449.000</h4>
+            <h4 className="font">1.900.000</h4>
             <h4 className="tf">{t("title10")}</h4>
           </div>
         </div>
@@ -819,6 +831,7 @@ const Phones = () => {
         </div>
       </div>
 
+
       <button className="fix_btn">
         <a href="#home">
           <FaArrowUp className="ico" />
@@ -828,4 +841,4 @@ const Phones = () => {
   );
 };
 
-export default Phones;
+export default Phones
